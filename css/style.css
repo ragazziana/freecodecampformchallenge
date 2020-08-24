@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f3f3f3;
+  margin: 0 20px 40px 20px;
+  font-size: 1rem;
+}
+
+@media (max-width: 375px) {
+  .top-of-form {
+    font-size: 0.7rem;
+  }
+  #title,
+  #description {
+    line-height: 5px;
+  }
+}
+
+body {
+  background-color: #39398B;
+  font-family: "Poppins";
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.top-of-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#title,
+#description {
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+}
+
+#title {
+  margin-top: 40px;
+}
+
+#description {
+  font-style: italic;
+}
+
+#survey-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #252545;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.top-of-form {
+  color: #f3f3f3;
+}
+
+label {
+  display: block;
+}
+
+.radio-for-friends label {
+  display: inline-block;
+}
+
+.check-for-improve label {
+  display: inline-block;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#dropdown-second,
+#comments {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Poppins";
+  font-size: 1rem;
+  text-indent: 10px;
+}
+
+.name-label,
+.email-label,
+.number-label,
+.dropdown,
+.radio-btn,
+.dropdown-second,
+.comments {
+  margin-bottom: 20px;
+}
+
+.check-for-improve {
+  margin-top: 10px;
+}
+
+.check-for-improve input {
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.check-for-improve p {
+  display: inline;
+}
+
+.check-for-improve span {
+  font-style: italic;
+  font-size: .7rem;
+}
+
+.radio-for-friends p {
+  display: inline;
+}
+
+.radio-for-friends input {
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.dropdown-second {
+  margin-top: 20px;
+}
+
+.dropdown-second p {
+  display: inline;
+}
+
+.comments {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.comments .comments1 {
+  display: inline;
+}
+
+.comments #comments {
+  height: 80px;
+  width: 99%;
+}
+
+#submit {
+  width: 100%;
+  height: 40px;
+  background-color: #37af65;
+  border: 1px solid #37af65;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
